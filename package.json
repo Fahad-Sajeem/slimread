@@ -28,6 +28,14 @@
     "ai-agents",
     "tokens"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fahad-Sajeem/slimread.git"
+  },
+  "homepage": "https://github.com/Fahad-Sajeem/slimread#readme",
+  "bugs": {
+    "url": "https://github.com/Fahad-Sajeem/slimread/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.1",

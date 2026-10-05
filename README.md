@@ -100,7 +100,7 @@ For other file types (Markdown, JSON, YAML, CSS...), agents keep reading them di
 ## Development
 
 ```bash
-git clone <this repo> && cd slimread
+git clone https://github.com/Fahad-Sajeem/slimread.git && cd slimread
 npm install
 npm test
 node bin/slimread.js stats /path/to/any/project
