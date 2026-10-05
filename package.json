@@ -1,0 +1,39 @@
+{
+  "name": "slimread",
+  "version": "0.1.0",
+  "description": "Read code by symbol, not by file: an MCP server that cuts the tokens coding agents (Claude Code, Codex, Cursor) spend reading source files.",
+  "type": "module",
+  "bin": {
+    "slimread": "bin/slimread.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude-code",
+    "codex",
+    "cursor",
+    "tree-sitter",
+    "ai-agents",
+    "tokens"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "ignore": "^7.0.12",
+    "tree-sitter-wasms": "0.1.13",
+    "web-tree-sitter": "0.22.6",
+    "zod": "^4.6.5"
+  }
+}
